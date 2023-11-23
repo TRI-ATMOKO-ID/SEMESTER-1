@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERI SEMESTER 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TRI ATMOKO</h1>
+    </header>
+    <main>
+        <section class="playlist">
+            <h2>GALERI SEMESTER 1</h2>
+            <ul>
+                <li>
+                    <h3>ARTIKEL B. IND</h3>
+                    <a href="File/ARTIKEL B. IND.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>LATIHAN EN 4.15</h3>
+                    <a href="File/LATIHAN EN 4.15.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>MAKALAH AQIDAH FIX</h3>
+                    <a href="File/MAKALAH AQIDAH FIX.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>MAKALAH FILSAFAT</h3>
+                    <a href="File/MAKALAH FILSAFAT.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>MAKALAH METODOLOGI</h3>
+                    <a href="File/MAKALAH METODOLOGI.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>MAKALAH PI</h3>
+                    <a href="File/MAKALAH PI.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>MAKALAH PIE</h3>
+                    <a href="File/MAKALAH PIE.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>RINGKASAN USHUL FIQIH</h3>
+                    <a href="File/RINGKASAN USHUL FIQIH.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>TPKI TRI ATMOKO</h3>
+                    <a href="File/TPKI TRI ATMOKO.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>TRI ATMOKO UTS</h3>
+                    <a href="File/TRI ATMOKO UTS.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+                <li>
+                    <h3>TUGAS B INGG</h3>
+                    <a href="File/TUGAS B INGG.docx" download class="unduh-link">
+                        <img src="p.png" alt="icon-unduh" class="icon-unduh">
+                    </a>
+                </li>
+            </ul>
+        </section>
+         <div class="music-player">
+            <audio loop autoplay controls>
+                <source src="Nahida - Ruang Rindu.mp3" type="audio/mpeg">
+                </audio>
+                <button id="toggleMusic">Pemutar Musik</button>
+            </div>
+            <script>
+            const backgroundMusic = document.getElementById('backgroundMusic');
+            const playMusicButton = document.getElementById('playMusic');
+            const pauseMusicButton = document.getElementById('pauseMusic');
+
+            playMusicButton.addEventListener('click', ()=> {
+                backgroundMusic.play();
+            });
+
+            pauseMusicButton.addEventListener('click', ()=> {
+                backgroundMusic.pause();
+            });
+            </script>
+        </main>
+        <footer>
+            <p>&copy; 2023 Tri Atmoko Galery. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
