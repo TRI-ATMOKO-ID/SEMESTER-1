@@ -101,3 +101,29 @@ img {
   margin-left: 5px;
   float: right;
 }
+
+/* Mengatur posisi toggle musik dan copyright */
+.music-player {
+  position: fixed;
+  bottom: 80px; /* Atur posisi agar tidak menutupi copyright */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  z-index: 10; /* Menentukan lapisan tampilan (z-index) */
+}
+
+.copyright {
+  position: fixed;
+  bottom: 20px; /* Atur posisi sesuai keinginan */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 5; /* Menentukan lapisan tampilan (z-index) */
+}
